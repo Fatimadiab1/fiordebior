@@ -1,5 +1,5 @@
 body {
-  background: url(/Image/poto.png);
+  background: url(Image/poto.png);
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -116,7 +116,7 @@ body {
   font-family: poppins;
   color: transparent;
   -webkit-text-stroke: 1px rgb(255, 255, 255);
-  background: url(/Image/back\ \(1\).png);
+  background: url(Image/back\ \(1\).png);
   background-clip: text;
   -webkit-background-clip: text;
   background-position: 0 0;
