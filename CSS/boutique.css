@@ -1,0 +1,234 @@
+body {
+  background: url(/Image/fireeeeeee.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+
+.sidebar {
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  color: white;
+}
+
+.nav-link-custom {
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.5s ease-in-out;
+
+}
+
+.nav-link-custom:hover {
+  border-bottom: 3px solid red;
+}
+
+.nav-link-custom.active {
+  border-bottom: 6px solid red;
+}
+
+.Artiste {
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 120px;
+}
+
+#cart-button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1;
+  background-color: #ed0909;
+  border: none;
+  color: #ffffff;
+  padding: 10px;
+  font-size: 22px;
+  font-family: poppins;
+  cursor: pointer;
+}
+
+#sidebar {
+  position: fixed;
+  top: 0;
+  right: -300px;
+  width: 300px;
+  height: 100%;
+  background-color: #00000088;
+  z-index: 1;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding: 20px;
+}
+
+#sidebar.show {
+  right: 0;
+}
+
+#cart-items {
+  list-style: none;
+  padding: 0;
+}
+
+#cart-items li {
+  margin-bottom: 10px;
+}
+
+#total-price {
+  font-weight: bold;
+}
+
+
+.Article1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.btn-primary {
+  background-color: white;
+  color: black;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  padding: 9px;
+  font-family: poppins;
+  border-radius: 15px;
+  border-color: transparent;
+  transition: transform 0.2s ease;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card-title {
+  font-family: poppins;
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.817);
+}
+
+.card-text {
+  font-family: poppins;
+  font-size: 25px;
+  color: rgba(255, 0, 0, 0.817);
+}
+
+.list {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-start;
+  color: orange;
+  margin-left: -50px;
+}
+
+.list li {
+  margin-left: 15px;
+  margin-top: 35px;
+}
+
+input {
+  margin: 10px;
+}
+
+.btn-primary:hover {
+  transform: scale(1.2);
+  background-color: rgb(217, 19, 16);
+  border-color: transparent;
+  margin-left: 10px;
+}
+
+.card-img-top {
+  transition: transform 0.2s ease;
+}
+
+.card-img-top:hover {
+  transform: scale(1.2);
+}
+
+.zoom {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/*Footer*/
+.footer {
+  padding: 40px 0;
+  background-color: rgb(0, 0, 0);
+  margin-top: 100px;
+
+
+
+}
+
+.footer-icon {
+  text-align: center;
+  padding-bottom: 25px;
+  color: #ffffff;
+
+}
+
+.footer-icon a {
+  font-size: 24px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 40px;
+}
+
+.footer-icon a:hover {
+  box-shadow:
+    0 0 5px rgb(157, 42, 4),
+    0 0 25px rgb(157, 42, 4),
+    0 0 50px rgb(157, 42, 4),
+    0 0 100px rgb(157, 42, 4);
+}
+
+
+.footer ul {
+  margin-top: 0;
+  padding: 0;
+  list-style-type: none;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.footer ul li {
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: white;
+  position: relative;
+  padding: 10px;
+  font-size: 26px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer ul li a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #ff0000;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease-in-out;
+}
+
+.footer ul li a:hover::after {
+  transform: scaleX(1);
+}
+
+
+
+.Copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 20px;
+  color: aliceblue;
+}

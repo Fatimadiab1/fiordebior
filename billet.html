@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="CSS/stylebillet.css">
+  </link>
+  <title>Billetterie</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-dark bg-transparent">
+      <div class="container">
+        <a class="navbar-brand fs-4" href="indexA.html" style="margin: 10px;"><img
+            src="Image/fior logo.png off blanc.png" width="150px"></a>
+        <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon" style="width:50px;"></span>
+        </button>
+        <div class=" sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel">
+
+          <div class="offcanvas-header text-white border-bottom ">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+            <button type="button" class="btn-close-white shadow-none" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="Paro">
+            <div class="offcanvas-body d-flex flex-column flex-lg-row p-4">
+              <ul class="navbar-nav justify-content-center align-item-center fs-5 flex-grow-1 pe-3">
+                <li class="nav-item mx-2">
+                  <a class="nav-link nav-link-custom"
+                    style="font-size:27px;color: #ffffff;font-family: Arial, Helvetica, sans-serif;"
+                    href="index.html">Acceuil</a>
+                </li>
+                <li class="nav-item mx-2">
+                  <a class="nav-link nav-link-custom"
+                    style="font-size:27px;color: #ffffff;font-family: Arial, Helvetica, sans-serif;"
+                    href="artiste.html">Artiste</a>
+                </li>
+                <li class="nav-item mx-2">
+                  <a class="nav-link nav-link-custom"
+                    style="font-size:27px;color: #ffffff;font-family: Arial, Helvetica, sans-serif;"
+                    href="evenement.html">Evènement</a>
+                </li>
+                <li class="nav-item mx-2">
+                  <a class="nav-link nav-link-custom"
+                    style="font-size:27px;color: #ffffff;font-family: Arial, Helvetica, sans-serif;"
+                    href="boutique.html">Boutique</a>
+                </li>
+                <li class="nav-item mx-2">
+                  <a class="nav-link nav-link-custom"
+                    style="font-size:27px;color: #ffffff;font-family: Arial, Helvetica, sans-serif;"
+                    href="billet.html">Billetterie</a>
+                </li>
+                <li class="nav-item mx-2">
+                  <a class="nav-link nav-link-custom"
+                    style="font-size:27px;color: #ffffff;font-family: Arial, Helvetica, sans-serif;"
+                    href="contacte.html">Contact</a>
+                </li>
+              </ul>
+              <div class="d-flex justify-content-end align-item-center gap-3">
+                <a href=""><i class="fa-solid fa-basket-shopping"
+                    style="color:white;font-size:30px;margin-top:15px;"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--Coprs-->
+  <section class="Artiste">
+    <img class="artiste" src="Image/billeterie-removebg-preview.png">
+    <hr class="ligne" style="color: #ffffff;">
+  </section>
+  <div class="corps">
+    <div class="Ticket">
+      <div class="ticket">
+        <div class="left">
+          <div class="image">
+            <p class="admit-zero">
+              <span>King of rap</span>
+              <span>King of rap</span>
+              <span>King of rap</span>
+            </p>
+          </div>
+          <div class="ticket-info">
+            <p class="date">
+              <span>Samedi</span>
+              <span class="juillet">15 Juillet</span>
+              <span>2023</span>
+            </p>
+            <div class="show-name">
+              <h1>King of rap</h1>
+            </div>
+            <div class="Tarif">
+              <p>Tarif:10.000FCFA/20.000FCFA</p>
+            </div>
+            <p class="location"><span> Ivoire Golf Hotel</span>
+            </p>
+          </div>
+        </div>
+        <div class="right">
+          <div class="right">
+            <p class="admit-one">
+              <span>King of rap</span>
+              <span>King of rap</span>
+              <span>King of rap</span>
+            </p>
+            <div class="right-info-container">
+              <div class="time-1">
+                <p>16h</p>
+              </div>
+              <div class="barcode">
+                <a href="https://tikerama.com/fr/evenement/kings-of-rap"><img src="Image/qrcode_tikerama.com.png"
+                    alt="QR code"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="https://tikerama.com/fr/evenement/kings-of-rap" class="btn">
+      <div class="reserv"></div>
+      Reserver
+    </a>
+  </div>
+  <!--Footer-->
+  <footer>
+    <div class="footer">
+      <div class="footer-icon">
+        <a href="https://www.facebook.com/fior2biorOfficiel"><i class="fa-brands fa-facebook"
+            style="color: #ffffff;font-size:50px;"></i></a>
+        <a href="https://instagram.com/fior2bior31_7?igshid=MzRlODBiNWFlZA=="><i class="fa-brands fa-instagram"
+            style="color: #ffffff;font-size: 50px;"></i></a>
+        <a href="https://www.tiktok.com/@fior2bior_99?_t=8dV6fCowu4U&_r=1"><i class="fa-brands fa-tiktok"
+            style="color: #ffffff;font-size: 50px;"></i></a>
+        <a href="https://twitter.com/fior2bior31_7?lang=fr"><i class="fa-brands fa-twitter"
+            style="color: #ffffff;font-size: 50px;"></i></a>
+      </div>
+      <ul class="list-footer">
+        <li><a href="indexA.html">Acceuil</a></li>
+        <li><a href="artiste.html">Artiste</a></li>
+        <li><a href="evenement.html">Evènement</a></li>
+        <li><a href="boutique.html">Boutique</a></li>
+        <li><a href="billet.html">Billeterie</a></li>
+        <li><a href="contacte.html">Contact</a></li>
+        <li><a href=""><i class="fa-solid fa-basket-shopping" style="color:white;font-size:30px;padding:5px;"></i></a>
+        </li>
+      </ul>
+      <p class="Copyright">Africa BoostUp @2023</p>
+    </div>
+  </footer>
+</body>
+
+</html>
